@@ -205,5 +205,4 @@ def main():
     #     demo.launch(server_name="0.0.0.0", server_port=PORT, auth=AUTHENTICATION, favicon_path="docs/logo.png")
 
 if __name__ == "__main__":
-    API_KEY = os.environ.get("OPENAI_API_KEY")
     main()
